@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">YAC</string>
+    <string name="title_scanner">Absensi YAC</string>
+    <string name="title_new_member">New Member YAC</string>
+    <string name="title_profil_member">List Member YAC</string>
+    <string name="title_daftar_hadir">Daftar Hadir YAC</string>
+    <string name="text_btn_absen">Absen</string>
+    <string name="text_btn_daftar_Hadir">Daftar Hadir</string>
+    <string name="text_btn_profil_member">Profil Member</string>
+    <string name="text_btn_new_member">New Member</string>
+    <string name="text_dialog_yes">Hadir</string>
+    <string name="text_dialog_sudah_absen">Terimakasih sudah hadir</string>
+    <string name="text_new_member_id">Member ID</string>
+    <string name="text_new_nama">Nama Anggota</string>
+    <string name="text_new_email">Email Anggota</string>
+    <string name="text_new_hp">Nomer HP</string>
+    <string name="text_btn_save_new_member">Save Data</string>
+</resources>
