@@ -33,6 +33,12 @@ public class ProfilMemberAdapter extends RecyclerView.Adapter<ProfilMemberAdapte
             listId = (TextView) view.findViewById(R.id.textViewListId);
             listNama = (TextView) view.findViewById(R.id.textViewListNama);
             listMemberId = (TextView) view.findViewById(R.id.textViewListMemberId);
+            view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(view.getContext(), "Detail", Toast.LENGTH_SHORT).show();
+                }
+            });
             view.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
